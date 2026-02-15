@@ -10,6 +10,7 @@ const ai = new GoogleGenAI({
 export async function GET() {
   return Response.json({ success: true, data: "THANK YOU!" }, { status: 200 });
 }
+// done
 
 export async function POST(request: Request) {
   const body = await request.json();
